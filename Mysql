@@ -1,0 +1,9 @@
+
+  CREATE  TABLE login (
+  `usuario` VARCHAR(20) NOT NULL ,
+  `password` VARCHAR(20) NOT NULL ,
+  PRIMARY KEY (`usuario`) ); 
+  
+  
+  INSERT INTO login (`usuario`, `password`) VALUES ('Operador', 'pass');
+  INSERT INTO login (`usuario`, `password`) VALUES ('Supervisor', 'pass');
